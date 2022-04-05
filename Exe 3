@@ -1,0 +1,37 @@
+//Dados n>0 e uma sequencia de n numeros inteiros, determinar a soma dos numeros pares
+function somapares(n){
+//começando do 0 como no exercicio 1
+  let arr = []
+  let soma = 0
+  
+  for(let x=1; arr.length <n; x++){
+
+    
+    if (x%2 == 0){
+      arr.push (x)
+     
+    }
+ 
+  }
+  for (let i=0; i <arr.length; i++){
+    soma = soma + arr[i]
+    
+  }
+  return soma
+    
+}
+
+//ou uma sequência dada dentro de um vetor
+function somaseq (arra){
+let som = 0
+  
+for (let i=0; i <arra.length; i++){
+if (arra[i]%2 == 0){
+som = som +arra[i]}
+
+}
+return som
+}
+
+
+
