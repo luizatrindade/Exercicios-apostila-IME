@@ -1,4 +1,4 @@
-//Dado um numero inteiro positivo ´ n, imprimir os n primeiros naturais ´ımpares. Exemplo: Para n=4 a sa´ıda
+//Dado um numero inteiro positivo  n, imprimir os n primeiros naturais ımpares. Exemplo: Para n=4 a saıda
 devera ser 1,3,5,7.
 
 function numeros(n){
