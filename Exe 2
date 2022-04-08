@@ -2,19 +2,22 @@
 //Determinar em que dia desse mes ocorreu a maior venda e qual foi a quantidade de discos vendida nesse dia.
 
 function disco (quantidade){
-let arr = []
+let x=0
+let d=0
+let f=""
 
 for (let i=0;i<quantidade.length; i++){
-  if(quantidade[i]> quantidade [i+1]){arr.push (quantidade[i])}
-  }, 
+  if(x > quantidade [i]){x=quantidade[i])}
+  }
 
   
- for (let u=0;u<arr.length; u++){
-   if (arr[u]<a[u+1]){ splice(arr[u])}
+ for (let u=0;u<quantidade.length; u++){
+   if (x==quantidade[i]){d=[i]}
 
+f="O dia de maior venda foi" + i + " e quantidade de discos vendida nesse dia foi" + x
  
  }
- return arr
+ return f
 
 }
 
